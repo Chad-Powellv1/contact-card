@@ -1,0 +1,78 @@
+@font-face {
+    font-family: "BrushScript" !important;
+    src: url('/fonts/BRUSHSCI.TTF') format("truetype") !important;
+  }
+  
+  #bg {
+      background-image: url('../img/bg3.jpg') !important;
+        height: 100vh !important;
+  }
+  #rounded-circle {
+      width: 14rem !important;
+      height: 12rem !important;
+      z-index: 0;
+  }
+  
+  .img-block #text {
+      opacity: 0 !important;
+      width: 14rem !important;
+      height: 12rem !important;
+      background-color: rgba(98, 130, 148, 0.75);
+      font-family: "BrushScript" !important;
+      font-size: 2rem;
+      font-weight: bold;
+      color: wheat;
+      top: 0;
+      left: 50%;
+      z-index: 10;
+      border-radius: 50%;
+      margin-left: -7rem !important;
+      padding-top: 4rem;
+  }
+  
+
+  .img-block:hover #text {
+      opacity: 1 !important;
+      transition: all .5s ease-in-out !important;
+      cursor: pointer;
+  }
+  
+  #icon {
+      font-size: 2.7rem !important;
+  
+  }
+  
+  #icon:hover {
+      color: rgba(98, 130, 148, 0.75) !important;
+  
+  }
+  
+  #hr {
+      height: .3rem;
+      color: black;
+      font-weight: bolder;
+      margin-top: 0;
+      margin-bottom: 0;
+  }
+  
+  #name-container {
+      margin-top: 10rem !important;
+      max-width: 375px !important;
+  }
+  
+  .fs-1 {
+      position: sticky;
+  }
+  
+  .links-border-top {
+      border-top: 3px solid black !important;
+  }
+  
+  a {
+      color: inherit !important;
+  }
+  
+  #background {
+      background-color: white !important;
+      border-radius: 3rem !important;
+  }
