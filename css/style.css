@@ -4,26 +4,28 @@
   }
   
   #bg {
-      background-image: url('../img/bg3.jpg') !important;
-        height: 100vh !important;
+    background-image: url('../img/bg4.jpg') !important;
+    height: 100vh !important;
+    background-size: cover;
   }
   #rounded-circle {
-      width: 14rem !important;
+      width: 12.5rem !important;
       height: 12rem !important;
       z-index: 0;
+      border: 8px solid #006ED5;
   }
   
   .img-block #text {
       opacity: 0 !important;
-      width: 14rem !important;
+      width: 12.5rem !important;
       height: 12rem !important;
-      background-color: rgba(98, 130, 148, 0.75);
+      background-color: #002B53;
       font-family: "BrushScript" !important;
       font-size: 2rem;
       font-weight: bold;
-      color: wheat;
+      color: #F87630;
       top: 0;
-      left: 50%;
+      left: 52%;
       z-index: 10;
       border-radius: 50%;
       margin-left: -7rem !important;
@@ -39,11 +41,12 @@
   
   #icon {
       font-size: 2.7rem !important;
+      color: #002B53 !important;
   
   }
   
   #icon:hover {
-      color: rgba(98, 130, 148, 0.75) !important;
+      color: #F87630 !important;
   
   }
   
@@ -75,4 +78,13 @@
   #background {
       background-color: white !important;
       border-radius: 3rem !important;
+      box-shadow: 3px 3px 3px black;
+  }
+
+  .firstName {
+      color: #002B53;
+  }
+
+  .lastName {
+      color:#F87630;
   }
